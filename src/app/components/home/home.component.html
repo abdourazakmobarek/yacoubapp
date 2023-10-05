@@ -1,1 +1,126 @@
-<p>home works!</p>
+<div class="container m-5">
+  <app-get-sole></app-get-sole>
+  <!-- <div class="row justify-content-center align-items-center">
+    
+
+    <div class="col">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col">
+          <div class="card border-primary mb-3">
+            <div class="card-header text-center">البنك</div>
+            <div class="card-body text-primary text-center">
+              <h2>
+                <p class="card-text">{{ soldeBank }}</p>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-secondary mb-3">
+            <div class="card-header text-center">المحفظة</div>
+            <div class="card-body text-secondary text-center">
+              <h2>
+                <p class="card-text">{{ soldePortf }}</p>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3">
+            <div class="card-header text-center">الصندوق</div>
+            <div class="card-body text-success text-center">
+              <h2>
+                <p class="card-text">{{ soldeCaisse }}</p>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <hr class="rounded mb-5 mt-5" />
+
+  <div class="row justify-content-center align-items-center">
+    <div class="col">
+      <div class="row justify-content-center align-items-center g-2">
+        <button class="col btn " routerLink="team">
+          <div class="card border-primary mb-3">
+            <div class="card-body text-primary text-center">
+              <h1 class="card-title">المتاجر</h1>
+              <i-bs name="person-circle" width="auto" height="auto"> </i-bs>
+            </div>
+          </div>
+        </button>
+        <button class="col btn" routerLink="earnigs">
+          <div class="card border-secondary mb-3">
+            <div class="card-body text-secondary text-center">
+              <h1 class="card-title">الأرباح</h1>
+              <p class="card-text">
+                <i-bs name="graph-up-arrow" width="auto" height="auto"> </i-bs>
+
+              </p>
+            </div>
+          </div>
+        </button>
+
+        <button class="col btn"routerLink="transferfont">
+          <div class="card border-success mb-3" >
+            <div class="card-body text-success text-center">
+              <h1 class="card-title">تحويل أرصدة</h1>
+              <p class="card-text">
+                <i-bs name="currency-exchange" width="auto" height="auto"> </i-bs>
+
+              </p>
+            </div>
+          </div>
+        </button>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center align-items-center">
+    <div class="col">
+      <div class="row justify-content-center align-items-center g-2">
+        <button class="col btn" routerLink="deposit">
+          <div class="card border-secondary mb-3">
+            <div class="card-body text-warning text-center">
+              <h1 class="card-title"> ودائع</h1>
+              <p class="card-text">
+                <i-bs name="stack" width="auto" height="auto">
+                </i-bs>
+              </p>
+            </div>
+          </div>
+        </button>
+
+       <!--  <button class="col btn" routerLink='transferfont'>
+          <div class="card border-secondary mb-3">
+            <div class="card-body text-secondary text-center">
+              <h2 class="card-title">تحويل رصيد</h2>
+              <p class="card-text">
+                <i-bs name="chevron-bar-contract" width="auto" height="auto">
+                </i-bs>
+              </p>
+            </div>
+          </div>
+        </button> -->
+      
+        <a class="col btn " routerLink='expenses' >
+          <div class="card border-success mb-3">
+            <div class="card-body text-danger text-center">
+              <h1 class="card-title">نفقات</h1>
+              <p class="card-text">
+                <i-bs name="bar-chart-steps" width="auto" height="auto"> </i-bs>
+              </p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>

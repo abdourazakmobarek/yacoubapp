@@ -1,0 +1,441 @@
+{
+  "user": [
+    {
+      "id": "abdo",
+      "userName": "abdo",
+      "password": "abdo?2023",
+      "email": "abdo@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true
+    }
+  ],
+  "compt": [
+    {
+      "solde": 80,
+      "lastSolde": 110,
+      "nomcompt": "PORTFAILLE",
+      "updateAt": "2023-09-27T16:06:54.073Z",
+      "id": "CA001"
+    },
+    {
+      "id": "GA001",
+      "nomcompt": "GAIN",
+      "lastSolde": 460,
+      "solde": 480,
+      "updateAt": "2023-09-27T16:05:26.207Z"
+    },
+    {
+      "id": "BA001",
+      "nomcompt": "BANK",
+      "solde": 530,
+      "lastSolde": 510,
+      "updateAt": "2023-09-27T16:05:26.207Z"
+    },
+    {
+      "solde": 30,
+      "lastSolde": 0,
+      "nomcompt": "CAISSE",
+      "updateAt": "2023-09-27T16:06:54.073Z",
+      "id": "PO001"
+    }
+  ],
+  "operations": [
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-26T13:21:32.158Z",
+      "color_color": "text-danger",
+      "id": 1
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-26T13:22:18.145Z",
+      "color_color": "text-danger",
+      "id": 2
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T00:45:19.672Z",
+      "color_color": "text-success",
+      "id": 3
+    },
+    {
+      "type": "versement",
+      "montant": "30",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 4
+    },
+    {
+      "type": "versement",
+      "montant": "20",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 5
+    },
+    {
+      "type": "versement",
+      "montant": "10",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 6
+    },
+    {
+      "type": "versement",
+      "montant": "10",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 7
+    },
+    {
+      "type": "versement",
+      "montant": "30",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 8
+    },
+    {
+      "type": "versement",
+      "montant": "30",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-info",
+      "id": 9
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T00:46:28.781Z",
+      "color_color": "text-danger",
+      "id": 10
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T00:51:45.703Z",
+      "color_color": "text-danger",
+      "id": 11
+    },
+    {
+      "type": "versement",
+      "montant": "20",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:51:45.703Z",
+      "color_color": "text-info",
+      "id": 12
+    },
+    {
+      "type": "versement",
+      "montant": "30",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T00:51:45.703Z",
+      "color_color": "text-info",
+      "id": 13
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T00:52:56.740Z",
+      "color_color": "text-success",
+      "id": 14
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T00:52:56.740Z",
+      "color_color": "text-success",
+      "id": 15
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T01:12:33.361Z",
+      "color_color": "text-danger",
+      "id": 16
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T12:21:26.908Z",
+      "color_color": "text-danger",
+      "id": 17
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T12:37:06.807Z",
+      "color_color": "text-success",
+      "id": 18
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T13:11:07.172Z",
+      "color_color": "text-danger",
+      "id": 19
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T13:11:07.172Z",
+      "color_color": "text-danger",
+      "id": 20
+    },
+    {
+      "type": "versement",
+      "montant": "50",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T13:12:35.504Z",
+      "color_color": "text-info",
+      "id": 21
+    },
+    {
+      "type": "retrait",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T13:40:03.455Z",
+      "color_color": "text-danger",
+      "id": 22
+    },
+    {
+      "type": "versement",
+      "montant": "10",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T13:40:03.455Z",
+      "color_color": "text-info",
+      "id": 23
+    },
+    {
+      "type": "retrait",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T14:00:50.746Z",
+      "color_color": "text-danger",
+      "id": 24
+    },
+    {
+      "type": "versement",
+      "montant": "10",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T14:00:50.746Z",
+      "color_color": "text-info",
+      "id": 25
+    },
+    {
+      "type": "versement",
+      "montant": "10",
+      "comptSource": "CA001",
+      "comptDest": "PO001",
+      "dateOp": "2023-09-27T14:00:50.746Z",
+      "color_color": "text-info",
+      "id": 26
+    },
+    {
+      "type": "retrait",
+      "montant": "50",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T14:00:50.746Z",
+      "color_color": "text-danger",
+      "id": 27
+    },
+    {
+      "type": "retrait",
+      "montant": "50",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T14:00:50.746Z",
+      "color_color": "text-danger",
+      "id": 28
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T14:02:48.971Z",
+      "color_color": "text-success",
+      "id": 29
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T15:16:05.039Z",
+      "color_color": "text-success",
+      "id": 30
+    },
+    {
+      "type": "Gain",
+      "montant": "30",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T15:16:05.039Z",
+      "color_color": "text-success",
+      "id": 31
+    },
+    {
+      "type": "Gain",
+      "montant": "50",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T15:16:05.039Z",
+      "color_color": "text-success",
+      "id": 32
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T15:16:05.039Z",
+      "color_color": "text-success",
+      "id": 33
+    },
+    {
+      "type": "retrait",
+      "montant": "30",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T15:59:41.888Z",
+      "color_color": "text-danger",
+      "id": 34
+    },
+    {
+      "type": "retrait",
+      "montant": "60",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T15:59:41.888Z",
+      "color_color": "text-danger",
+      "id": 35
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:00:19.876Z",
+      "color_color": "text-success",
+      "id": 36
+    },
+    {
+      "type": "Gain",
+      "montant": "30",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 37
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 38
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 39
+    },
+    {
+      "type": "Gain",
+      "montant": "30",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 40
+    },
+    {
+      "type": "Gain",
+      "montant": "10",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 41
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 42
+    },
+    {
+      "type": "Gain",
+      "montant": "20",
+      "comptSource": "PO001",
+      "comptDest": "BA001",
+      "dateOp": "2023-09-27T16:05:26.207Z",
+      "color_color": "text-success",
+      "id": 43
+    },
+    {
+      "type": "retrait",
+      "montant": "30",
+      "comptSource": "PO001",
+      "comptDest": "CA001",
+      "dateOp": "2023-09-27T16:06:54.073Z",
+      "color_color": "text-danger",
+      "id": 44
+    }
+  ]
+}

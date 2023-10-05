@@ -1,0 +1,90 @@
+<div class="container m-5">
+  <h1>الودائع </h1>
+<div class="row justify-content-center align-items-start g-2 mt-3">
+  <div class="col-md row justify-content-center align-items-center">
+    
+      <form class="example-form" [formGroup]="OperationForm" (ngSubmit)="saveOperation()">
+        <mat-form-field class="example-full-width">
+          <mat-label>المبلغ</mat-label>
+          <input matInput formControlName="montant"  placeholder="المبلغ" >
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>ملاحظات</mat-label>
+          <textarea matInput formControlName="description" placeholder="الملاحظة"></textarea>
+        </mat-form-field>
+        <mat-form-field  class="example-full-width" >
+          <mat-label>اختر العملية</mat-label>
+          <mat-select matInput formControlName="type"  (selectionChange)="change()" >
+            <mat-option *ngFor="let oper of oprations" [value]="oper.value">
+              {{oper.viewValue}}
+            </mat-option>
+          </mat-select>
+          
+        </mat-form-field>
+        <mat-form-field *ngIf="slectionChage" class="example-full-width" >
+          <mat-label>اختر الحساب</mat-label>
+          <mat-select matInput formControlName="comptSelected">
+            <mat-option  value="CA001">
+             الصندوق
+            </mat-option>
+            <mat-option  value="PO001">
+             المحفظة
+            </mat-option>
+          </mat-select>
+          
+        </mat-form-field>
+        <div class="d-grid gap-2  mx-auto">
+          <button mat-raised-button color="primary">تسجيل</button>
+        </div>
+
+
+      </form>
+
+
+  </div>
+  <div class="col-md m-3">
+    <app-get-sole></app-get-sole>
+  </div>
+  
+</div>
+<hr class="rounded mb-5 mt-5" />
+<div *ngIf="noInternetConnection" style="text-align: center;">    
+  <h1>THERE IS NO INTERNET CONNECTION</h1>    
+    
+</div>    
+<div *ngIf="!noInternetConnection" style="text-align: center;">     
+  <h1>INTERNET CONNECTION IS THERE</h1>    
+    
+</div>  
+
+<!-- <app-operations></app-operations> -->
+  <!-- <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table> -->
+</div>

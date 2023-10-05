@@ -1,0 +1,45 @@
+<div class="container m-5">
+  <h1 class=""> النفقات </h1>
+<div class="row justify-content-center align-items-start g-2 mt-3">
+  <div class="col-md row justify-content-center align-items-center">
+    
+      <form class="example-form" [formGroup]="OperationForm" (ngSubmit)="saveDepance()">
+        <mat-form-field class="example-full-width">
+          <mat-label>المبلغ</mat-label>
+          <input matInput formControlName="montant"  placeholder="المبلغ" >
+        </mat-form-field>
+        <mat-form-field  class="example-full-width" >
+          <mat-label>من الحساب</mat-label>
+          <mat-select matInput formControlName="comptSource"  >
+              <mat-option *ngFor="let oper of oprations" [value]="oper.value">
+                {{oper.viewValue}}
+              </mat-option>
+            </mat-select>
+          
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width">
+          <mat-label>ملاحظات</mat-label>
+          <textarea matInput formControlName="description" placeholder="الملاحظة"></textarea>
+        </mat-form-field>
+        
+        
+        <div class="d-grid gap-2  mx-auto">
+          <button mat-raised-button color="primary">تسجيل</button>
+        </div>
+
+
+      </form>
+
+
+  </div>
+  <div class="col-md m-3">
+    <app-get-sole></app-get-sole>
+  </div>
+  
+</div>
+<hr class="rounded mb-5 mt-5" />
+
+    
+</div>  
+

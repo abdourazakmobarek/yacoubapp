@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "yacoub-project": {
+      "hosting": {
+        "yacoubapp": [
+          "yacoub-project"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "yacoub-project"
+  }
+}

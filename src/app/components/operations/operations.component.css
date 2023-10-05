@@ -1,0 +1,64 @@
+.example-full-width {
+    width: 50%;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  form{
+    padding-bottom: 30px;
+  }
+  .primary{
+    background: orange;
+    color: white;
+  }
+  
+  .date-block{
+    display: flex;
+  }
+  .date-block__list{
+    flex-basis: 150px;
+    margin-right: 15px;
+  }
+
+
+
+
+
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  
+  .mobile-label {
+    display: none;
+  }
+  
+  @media(max-width: 600px) {
+    .mobile-label {
+      width: 80px;
+      display: inline-block;
+          font-weight: bold;
+    }
+  
+    .mat-header-row {
+      display: none;
+    }
+  
+    .mat-row { 
+      flex-direction: column;
+      align-items: start;
+      padding: 8px 24px;
+    }
+  }
+
+
